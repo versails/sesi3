@@ -1,0 +1,84 @@
+body{
+    background-color:rgb(244, 247, 248);
+}
+#header{
+    background:white;
+    text-align:right;
+    padding:20px;
+    display:block;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(219, 215, 215);
+    box-shadow: 1px 3px rgb(219, 215, 215);
+    text-decoration: none;
+}
+#header a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+a{
+margin:20px;
+}
+#profile{
+    margin:20px 450px;
+    margin:auto;
+    background-color: white;
+    padding:20px; 
+    width:1060px;
+    column-count: 4;
+}
+.image{
+    width:200px;
+    height:200px;
+    display:inline-block;
+} 
+.fed{
+    margin-bottom: 30px;
+    margin-top:20px;
+   
+}
+.edit{
+background-color: blue;
+border:none;
+color:white;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+padding: 14px 30px;
+border-radius: 10px 10px 10px 10px;
+}
+.edit:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0,24);
+    border-radius: 10px 10px 10px 10px;
+    color:white;
+}
+.resume{
+    background-color: white;
+    border:1px solid green;
+    color:green;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    padding: 14px 30px;
+}
+#form{
+    background-color: white;
+    width:1080px;
+    height:600px;
+    margin:auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+input{
+    width:100%;
+    margin-bottom: 20px;
+    height:30px;
+}
+#submit{
+    background-color: green;
+    color:white;
+}
+#submit:hover{
+    background-color:grey;
+}
